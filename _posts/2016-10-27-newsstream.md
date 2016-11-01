@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Our NewsStream Research Project
-navigation: Newsstream
+navigation: NewsStream
 ---
 
 Together with our partners at Deutsche Welle, Fraunhofer IAIS and Neofonie GmbH, we've been sharpening Big Data tools for use in the newsroom. You can read about what we do and how we do it in our [project blog](http://newsstreamproject.org/) (german only, sorry).
