@@ -1,5 +1,8 @@
 <div class="sidebar">
   <div class="container sidebar-sticky">
+    <div class="sidebar-logo" style="valign: top">
+        <img src="{{ site.baseurl }}public/newslab-logo.png">
+    </div>
     <div class="sidebar-about">
       <h1 class="small" >
         <a href="{{ site.baseurl }}">
@@ -26,7 +29,15 @@
           {% endif %}
         {% endif %}
       {% endfor %}
-
+      {% assign posts = site.posts %}
+      {% for node in posts %}
+        {% if node.title != null and node.navigation != null %}
+          {% if node.layout == "post" %}
+            <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url }}">{{ node.navigation }}</a>
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+      <a href="#" class="sidebar-nav-item">&nbsp;</a>
     <a class="sidebar-nav-item" target="_blank" href="https://www.eventbrite.com/e/tickertools-ist-ein-hackathon-der-deutschen-presse-agentur-dpa-tickets-27816046544">Register here</a>
       <!-- Archive link 
     <a class="sidebar-nav-item" href="{{ site.github.repo }}/archive/v{{ site.version }}.zip">Download</a>

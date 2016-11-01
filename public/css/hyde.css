@@ -249,6 +249,18 @@ a.sidebar-nav-item:focus {
   color: #8f5536;
 }
 
+
+/* grey */
+.theme-base-dpa .sidebar {
+  background-color: #404040;
+
+}
+.theme-base-dpa .content a,
+.theme-base-dpa .related-posts li a:hover {
+  color: rgb(75, 114, 53);
+}
+
+
 /*
  * Additions
  *
@@ -257,3 +269,8 @@ a.sidebar-nav-item:focus {
 
 
 .small { font-size: 80% } 
+
+.sidebar-logo img {
+    margin-left: auto;
+    margin-right: auto;
+}
