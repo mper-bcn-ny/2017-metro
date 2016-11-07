@@ -9,7 +9,7 @@ permalink:        pretty
 title:            'Tickertools 2016'
 tagline:          'How To by dpa-newslab'
 description:      'Technical how-to for the <a href="https://www.eventbrite.com/e/tickertools-ist-ein-hackathon-der-deutschen-presse-agentur-dpa-tickets-27816046544" target="_blank">hackathon</a> at dpa&apos;s newsroom in Berlin.'
-url:              http://dpa-newslab.github.io/tickertools2016
+url:              https://dpa-newslab.github.io/tickertools2016
 baseurl:          /tickertools2016/
 
 author:
