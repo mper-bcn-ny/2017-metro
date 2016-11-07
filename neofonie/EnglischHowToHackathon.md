@@ -31,6 +31,8 @@ Available result formats: json, php, python, csv u.a. (default XML)
 
 ## Field documentation Solr index##
 
+The majority of fields are available in all documents. 
+
 | **Field** | **Value** | **Description** |
 | --- | ------ | -------------- |
 | sourceId | string (dpa, neofonie) | News source. &quot;dpa&quot; contains all dpa services (see: dpaServices),&quot;neofonie&quot; is a large news crawl of 1200 news sources. |
@@ -48,7 +50,11 @@ Available result formats: json, php, python, csv u.a. (default XML)
 | knownTypes | PERSON, PLACE, CONCEPT, EVENT, ORGANISATION | entity types of all entities with wikidata entry |
 | unknownTypes | PERSON | PERSON singals that unknown persons were found in text |
 | entityRfc4180 | text (csv format) | named entity annotationen including position in text and confidence value |
+
+The following fields are only avaiable for Neofonie's news feed.
+
 | **Neofonie Newsfeed** |   |   |
+| --- | ------ | -------------- |
 | neoDocId | number | Neofonie&#39;s article id |
 | neoApplication | bz, focus, spiegel, faz, stern (eine Auswahl findet sich in untenstehender Liste) | short name of the news source |
 | neoPublicationId | int, e.g. 10 | publication id (for a list of English and German publications see below) |
@@ -58,7 +64,11 @@ Available result formats: json, php, python, csv u.a. (default XML)
 | neoTeaser | Text | teaser text |
 | neoTeaserGenerated | boolean | False if teaser text was extracted from original document. True if teaser was generated from the first lines of the article ... |
 | neoBody | text | text body. Starts with  … if teaser was generated. |
+
+The following fields are only avaiable for dpa documents.
+
 | **dpa** |   |   |
+| --- | ------ | -------------- |
 | dpaId | string | news id |
 | dpaKeywords | list of strings, e.g. &quot;Champions League&quot; | keywords (tagged manually) |
 | dpaIndustries | list of strings, e.g. &quot;TRN&quot; | industries (tagged manually)Only available for dpa-AFX |
