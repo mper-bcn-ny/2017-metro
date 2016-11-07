@@ -10,6 +10,5 @@ For the hackathon specifically, we wil be providing you with data streams that h
 
   * dpa news in German 
   * the result of a large webcrawl of news media throughout the german-speaking world as well as selected international sources in English
-  * selected audio files plus transcriptions from german public broadcasters
   
 All these data streams are annotated using named entities with linked open data IDs, unknown entities, extracted keywords and quotes. 
