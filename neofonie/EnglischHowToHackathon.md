@@ -1,4 +1,4 @@
-#The unofficial News-Stream API# 
+#The unofficial News-Stream API 
 
 At Tickertools hackathon, the unofficial News-Stream API is presented for the first time. The API grants access to the news index compiled by the [News-Stream](http://newsstreamproject.org) research project. The search index (Apache Solr) contains annotated news:
 
@@ -32,7 +32,7 @@ Available result formats: json, php, python, csv u.a. (default XML)
 ## Field documentation Solr index##
 
 | **Field** | **Value** | **Description** |
-| --- | --- | --- |
+| --- | ------ | -------------- |
 | sourceId | string (dpa, neofonie) | News source. &quot;dpa&quot; contains all dpa services (see: dpaServices),&quot;neofonie&quot; is a large news crawl of 1200 news sources. |
 | id | string | document id |
 | publicationDate | Datetime, e.g. 2016-11-03T15:00:18Z  | date and time |
@@ -117,5 +117,5 @@ Available result formats: json, php, python, csv u.a. (default XML)
 
 
 
-Interested in using TXT Werk directly? Get a 30 day test account for free. [Registration](https://services.neofonie.de/ws/account/register?lang=en)
+> Interested in using TXT Werk directly? Get a 30 day test account for free. [Registration](https://services.neofonie.de/ws/account/register?lang=en)
 
