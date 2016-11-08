@@ -15,4 +15,4 @@ All these data streams are annotated using named entities with linked open data 
 
 > [TXT Werk API](http://txtwerk.de/) can be accessed free of charge for 30 days.
 
-> Login and password to the NewsStream index will be made available at the hackathon. 
+> Login and password for the NewsStream index will be made available at the hackathon. 
