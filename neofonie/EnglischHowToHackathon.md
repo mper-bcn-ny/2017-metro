@@ -13,17 +13,17 @@ Solr is [well documented](https://cwiki.apache.org/confluence/display/solr/Searc
 [https://nstr.neofonie.de/solr-dev/hackathon/select?q=\*:\*](https://nstr.neofonie.de/solr-dev/hackathon/select?q=*:*)
 
 *Documents about Berlin (JSON):* 
-[https://nstr.neofonie.de/solr-dev/news/select?q=Berlin&amp;wt=json&amp;indent=on](https://nstr.neofonie.de/solr-dev/news/select?q=Berlin&amp;wt=json&amp;indent=on)
+[https://nstr.neofonie.de/solr-dev/hackathon/select?q=Berlin&wt=json&indent=on](https://nstr.neofonie.de/solr-dev/hackathon/select?q=Berlin&wt=json&indent=on)
 Available result formats: json, php, python, csv u.a. (default XML)
 
 *English documents about Berlin from Neofonie&#39; news crawl:* 
-[https://nstr.neofonie.de/solr-dev/hackathon/select?q=Berlin&amp;fq=sourceId:neofonie&amp;fq=language:en&amp;wt=json&amp;indent=on&amp;wt=json&amp;indent=on](https://nstr.neofonie.de/solr-dev/hackathon/select?q=Berlin&amp;fq=sourceId:neofonie&amp;fq=language:en&amp;wt=json&amp;indent=on&amp;wt=json&amp;indent=on)
+[https://nstr.neofonie.de/solr-dev/hackathon/select?q=Berlin&fq=sourceId:neofonie&fq=language:en&wt=json&indent=on&wt=json&indent=on](https://nstr.neofonie.de/solr-dev/hackathon/select?q=Berlin&fq=sourceId:neofonie&fq=language:en&wt=json&indent=on&wt=json&indent=on)
 
 *Documents about Berlin from Neofonie&#39;s news crawl not older than 24 hours:*
-[https://nstr.neofonie.de/solr-dev/hackathon/select?q=Berlin&amp;fq=sourceId:neofonie&amp;fq=publicationDate:[NOW/HOUR-24HOUR%20TO%20NOW/HOUR%2B1HOUR]&amp;wt=json&amp;indent=on](https://nstr.neofonie.de/solr-dev/hackathon/select?q=Berlin&amp;fq=sourceId:neofonie&amp;fq=publicationDate:%5BNOW/HOUR-24HOUR%20TO%20NOW/HOUR%2B1HOUR%5D&amp;wt=json&amp;indent=on)
+[https://nstr.neofonie.de/solr-dev/hackathon/select?q=Berlin&fq=sourceId:neofonie&fq=publicationDate:[NOW/HOUR-24HOUR%20TO%20NOW/HOUR%2B1HOUR]&wt=json&indent=on](https://nstr.neofonie.de/solr-dev/hackathon/select?q=Berlin&fq=sourceId:neofonie&fq=publicationDate:%5BNOW/HOUR-24HOUR%20TO%20NOW/HOUR%2B1HOUR%5D&wt=json&indent=on)
 
 *Hourly count  Documents about Berlin from Neofonie&#39;s news crawl not older than 24 hours:* 
-[https://nstr.neofonie.de/solr-dev/hackathon/select?q=Berlin&amp;wt=json&amp;indent=on&amp;rows=0&amp;fq=publicationDate:[NOW/HOUR-24HOUR%20TO%20NOW/HOUR%2B1HOUR]&amp;fq=sourceId:neofonie&amp;facet=true&amp;facet.range=publicationDate&amp;facet.range.start=NOW/HOUR-24HOUR&amp;facet.range.end=NOW/HOUR%2B1HOUR&amp;facet.range.gap=%2B1HOUR#](https://nstr.neofonie.de/solr-dev/hackathon/select?q=Berlin&amp;wt=json&amp;indent=on&amp;rows=0&amp;fq=publicationDate:%5BNOW/HOUR-24HOUR%20TO%20NOW/HOUR%2B1HOUR%5D&amp;fq=sourceId:neofonie&amp;facet=true&amp;facet.range=publicationDate&amp;facet.range.start=NOW/HOUR-24HOUR&amp;facet.range.end=NOW/HOUR%2B1HOUR&amp;facet.range.gap=%2B1HOUR#)
+[https://nstr.neofonie.de/solr-dev/hackathon/select?q=Berlin&wt=json&indent=on&rows=0&fq=publicationDate:[NOW/HOUR-24HOUR%20TO%20NOW/HOUR%2B1HOUR]&fq=sourceId:neofonie&facet=true&facet.range=publicationDate&facet.range.start=NOW/HOUR-24HOUR&facet.range.end=NOW/HOUR%2B1HOUR&facet.range.gap=%2B1HOUR#](https://nstr.neofonie.de/solr-dev/hackathon/select?q=Berlin&wt=json&indent=on&rows=0&fq=publicationDate:%5BNOW/HOUR-24HOUR%20TO%20NOW/HOUR%2B1HOUR%5D&fq=sourceId:neofonie&facet=true&facet.range=publicationDate&facet.range.start=NOW/HOUR-24HOUR&facet.range.end=NOW/HOUR%2B1HOUR&facet.range.gap=%2B1HOUR#)
 
 
 
