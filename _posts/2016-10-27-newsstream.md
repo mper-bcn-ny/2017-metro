@@ -11,8 +11,9 @@ For the hackathon specifically, we wil be providing you with data streams that h
   * dpa news in German 
   * the result of a large webcrawl of news media throughout the german-speaking world as well as selected international sources in English
   
-All these data streams are annotated using named entities with linked open data IDs, unknown entities, extracted keywords and quotes. For details see: [The unofficial News-Stream API](https://github.com/dpa-newslab/tickertools2016/blob/master/neofonie/EnglischHowToHackathon.md)
+All these data streams are annotated using named entities with linked open data IDs, unknown entities, extracted keywords and quotes. For details see: [The unofficial News-Stream API](https://github.com/dpa-newslab/tickertools2016/blob/master/neofonie/EnglischHowToHackathon.md). Example scripts in Python can be found in this [GitHub repository](https://github.com/dpa-newslab/tickertools2016/tree/master/neofonie).
+
+> Login and password for the News-Stream index will be made available at the hackathon. 
 
 > [TXT Werk API](http://txtwerk.de/) can be accessed free of charge for 30 days.
 
-> Login and password for the News-Stream index will be made available at the hackathon. 
