@@ -5,19 +5,9 @@ Created on Wed Nov  1 15:31:25 2016
 @author: walter tietze
 """
 
-from enum import Enum
-import feedparser
-import requests
-from boilerpipe.extract import Extractor
-import tempfile
-import os
-import errno
 import json
-from pprint import pprint
-from os import listdir
-from os.path import isfile, join
-
 import urllib
+import requests
 from itertools import chain
 
 """
