@@ -7,6 +7,14 @@ At Tickertools hackathon, the unofficial News-Stream API is presented for the fi
  - Annotated **Persons, Places Organisations, Concepts** extracted by [Neofonie's TXT Werk API](http://txtwerk.de)
  - **departments and industries** (automatically classified)
 
+All code, data and news is copyrighted by dpa, Neofonie GmbH, it's partners or third parties. Usage is permitted in the context of Tickertools Hackathon and related research projects. Please do ask if you intend to use it in other contexts, we will be welcoming.
+
+**Direct contact:** 
+
+mvirtel at dpa-newslab dot com (present at the hackathon)
+
+peter.adolphs at neofonie dot de
+
 Solr is [well documented](https://cwiki.apache.org/confluence/display/solr/Searching). We have prepared some queries which are listed below. We have also prepared a [Banana Dashboard](https://nstr.neofonie.de/dev/#/dashboard/solr/Hackathon) which helps you exploring our news collection. Next to each widget in the Dashboard you finde an information icon which will show you the query parameters used in the widget. 
 
 *All Documents:*  
