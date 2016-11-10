@@ -10,7 +10,7 @@
 
 #### Searchword "Hillary Clinton" - All Data
 
-[Searchword: "Hillary Clinton"](https://nstr.neofonie.de/solr-dev/hackathon/select?q=Hillary+Clinton&amp;rows=3&indent=on&amp;wt=json "Fetching all data")
+[Searchword: "Hillary Clinton"](https://nstr.neofonie.de/solr-dev/hackathon/select?q=Hillary+Clinton&rows=3&indent=on&wt=json "Fetching all data")
 
 
 ----------
@@ -18,7 +18,7 @@
 
 #### Searchwords "Hillary Clinton AND Donald Trump" - All Data
 
-[Searchword: "Hillary Clinton AND Donald Trump"](https://nstr.neofonie.de/solr-dev/hackathon/select?q=Hillary+Clinton+OR+Donals+Trump&amp;rows=3&amp;indent=on&amp;wt=json "Fetching all data")
+[Searchword: "Hillary Clinton AND Donald Trump"](https://nstr.neofonie.de/solr-dev/hackathon/select?q=Hillary+Clinton+OR+Donals+Trump&rows=3&indent=on&=json "Fetching all data")
 
 
 ----------
@@ -26,7 +26,7 @@
 
 #### Searchwords "Hillary Clinton AND Donald Trump" - Just title and text
 
-[Searchword: "Hillary Clinton AND Donald Trump"](https://nstr.neofonie.de/solr-dev/hackathon/select?fl=title+AND+text&amp;q=%22Hillary+Clinton%22+AND+%22Donald+Trump%22&rows=3&amp;indent=on&amp;wt=json "Just title and text")
+[Searchword: "Hillary Clinton AND Donald Trump"](https://nstr.neofonie.de/solr-dev/hackathon/select?fl=title+AND+text&q=%22Hillary+Clinton%22+AND+%22Donald+Trump%22&rows=3&indent=on&wt=json "Just title and text")
 
 
 ----------
