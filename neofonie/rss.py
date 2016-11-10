@@ -16,11 +16,6 @@ from os.path import isfile, join
 import feedparser
 from boilerpipe.extract import Extractor
 
-
-#import sys;
-#reload(sys);
-#sys.setdefaultencoding("utf8")
-
 """
     Class RSS - Loader for RSS feeds into the temp directory of the system with content extraction.
 """
@@ -56,9 +51,6 @@ class RSS:
         r = requests.get(url)
         self.writeToFile(url, r.text, True)
         self.updateExtract(url, r.text)
-	# r.status_code, r.headers['content-type'], r.encoding, r.text, r.json()
-	#    print("Url:", r.url)
-	#    print("Nachricht:", r.text)
         return;
 
     def update(self):
@@ -110,6 +102,7 @@ class RSS:
 
         extracts = []
         extractfiles = [f for f in listdir(self.sourceExtract) if isfile(join(self.sourceExtract, f))]
+        extractfiles.sort(key=lambda x: os.path.getmtime(self.sourceExtract + "/" + x), reverse=True)
         # print("Found files:" + str(extractfiles))
 
         for extractfile in extractfiles:
@@ -126,9 +119,6 @@ class RSS:
         return extracts;
 
 
-#map(lambda post: printEntry(post), d.entries)
-
-
 if __name__=='__main__' :
 
     presseportal = RSS("presseportal", "http://www.presseportal.de/rss/presseportal.rss2")
@@ -143,7 +133,7 @@ if __name__=='__main__' :
     spiegel = RSS("spiegel", "http://www.spiegel.de/schlagzeilen/index.rss")
     spiegel.update()
 
-    extracts = presseportal.getExtracts()
+    extracts = presseportal.getExtracts(2)
 
     print("Type " + str(type(extracts)))
 
