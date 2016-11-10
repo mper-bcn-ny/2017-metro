@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Our NewsStream Research Project
-navigation: NewsStream
+title: Our News-Stream Research Project
+navigation: News-Stream
 ---
 
 Together with our partners at Deutsche Welle, Fraunhofer IAIS and Neofonie GmbH, we've been sharpening Big Data tools for use in the newsroom. You can read about what we do and how we do it in our [project blog](http://newsstreamproject.org/) (german only, sorry).
@@ -15,4 +15,4 @@ All these data streams are annotated using named entities with linked open data 
 
 > [TXT Werk API](http://txtwerk.de/) can be accessed free of charge for 30 days.
 
-> Login and password for the NewsStream index will be made available at the hackathon. 
+> Login and password for the News-Stream index will be made available at the hackathon. 
