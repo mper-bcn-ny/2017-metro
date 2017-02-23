@@ -6,17 +6,17 @@ highlighter:      rouge
 permalink:        pretty
 
 # Setup
-title:            'Tickertools 2016'
-tagline:          'How To by dpa-newslab'
-description:      'Technical how-to for the <a href="https://www.eventbrite.com/e/tickertools-ist-ein-hackathon-der-deutschen-presse-agentur-dpa-tickets-27816046544" target="_blank">hackathon</a> at dpa&apos;s newsroom in Berlin.'
-url:              https://dpa-newslab.github.io/tickertools2016
-baseurl:          /tickertools2016/
+title:            'Falta el título'
+tagline:          'Falta el subtítulo'
+description:      'Falta la descripción'
+url:              https://mper-bcn-ny.github.io/2017-metro
+baseurl:          /2017-metro/
 
 author:
-  name:           'Martin Virtel'
-  url:            https://twitter.com/mvtango
+  name:           'Estudiantes del 2016/2017'
+  url:            https://la22.org/somosla22/
 
-paginate:         10
+paginate:         20
 
 # Custom vars
 version:          2.1.0
