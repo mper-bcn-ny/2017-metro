@@ -6,9 +6,9 @@ highlighter:      rouge
 permalink:        pretty
 
 # Setup
-title:            'Falta el título'
-tagline:          'Falta el subtítulo'
-description:      'Falta la descripción'
+title:            'Las ciudad desde la L3'
+tagline:          'Un viaje de datos por Barcelona'
+description:      'Un viaje de datos por Barcelona'
 url:              https://mper-bcn-ny.github.io/2017-metro
 baseurl:          /2017-metro/
 
