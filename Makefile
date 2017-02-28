@@ -1,6 +1,16 @@
 PROJECT=gh-pages-$(shell basename $$(pwd))
 WEBSITE=https://mper-bcn-ny.github.io/$(PROJECT)
 GITHUB_REPO=https://github.com/mper-bcn-ny/$(PROJECT)
+
+#
+# Github Token in file to access github metadata
+#
+# Example: JEKYLL_GITHUB_TOKEN=42xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxb9
+#
+# See https://github.com/jekyll/github-metadata#1-jekyll_github_token
+# 
+#
+
 GITHUB_TOKEN=~/Encfs/credentials/github-tokens/martinvirtel-public_repo
 
 dev-server: 
